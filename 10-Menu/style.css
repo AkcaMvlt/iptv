@@ -1,73 +1,7 @@
-.sections {
-  padding: 2em;
-}
-
-
-
-
-a {
-  color: #fff;
-}
-
-
-
-
-
-header {
-  background:url("") no-repeat center top fixed;
-  
-  background-size: cover;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-  
-  
-  height: 100%;
-  color: #fff;
-  text-align: center;
-  padding: 30px 0 120px;
-}
-
-
-
-
-
-
-
-a {
-  color: black;
-}
-
-
-
-
-header {
-  background:url("") no-repeat center top fixed;
-  
-  background-size: cover;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-  
-  
-  height: 100%;
-  color: #fff;
-
-}
-
-
-
-
-
-
-
-
-
-
-
 body {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  line-height: 1.5;
-  color: #333;
+  background-color: #F3F6F9;
+  font-family: "Roboto", "Helvetica", sans-serif;
+  padding: 2rem;
 }
 
 article {
@@ -77,10 +11,10 @@ article {
   height: 233px;
   position: relative;
   transition: box-shadow 0.5s ease;
-  width: 300px;
+  width: 250px;
 }
 article header {
-  padding: 1rem 1.5rem;
+  padding: 1rem 0.7rem;
 }
 article header h2 {
   color: #00457D;
@@ -95,15 +29,15 @@ article header h4 {
 }
 article header .price {
   color: #00457D;
-  font-size: 1.8rem;
-  font-weight: 600;
+  font-size: 2.0rem;
+  font-weight: 800;
   position: absolute;
-  right: 1.5rem;
+  right: 1.0rem;
   top: 1rem;
 }
 article img {
   display: inline-block;
-  left: calc(100% - 340px + 2.5rem);
+  left: calc(100% - 313px + 2.5rem);
   position: absolute;
   bottom: -2rem;
   transform: scale(0.9);
@@ -113,7 +47,7 @@ article img {
 article dl {
   color: #555;
   font-size: 0.9em;
-  padding-left: 1.5rem;
+  padding-left: 0.5rem;
 }
 article dl dt {
   font-weight: 600;
@@ -133,13 +67,13 @@ article:hover h2 {
   text-decoration-style: dotted;
 }
 article:hover img {
-  transform: scale(0.70);
+  transform: scale(0.75);
 }
 
 .card-list {
-  display: row;
-  grid-template-columns: repeat(2, 360px);
-  grid-template-rows: repeat(2, 320px);
+  display: grid;
+  grid-template-columns: repeat(2, 230px);
+  grid-template-rows: repeat(2, 260px);
   column-gap: 3rem;
   width: 1200px;
 }
@@ -153,20 +87,3 @@ article:hover img {
   background-color: #F3F6F9;
   grid-area: 1/2/2/3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
