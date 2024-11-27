@@ -11,7 +11,7 @@ article {
   height: 233px;
   position: relative;
   transition: box-shadow 0.5s ease;
-  width: 360px;
+  width: 300px;
 }
 article header {
   padding: 1rem 1.5rem;
@@ -29,7 +29,7 @@ article header h4 {
 }
 article header .price {
   color: #00457D;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-weight: 600;
   position: absolute;
   right: 1.5rem;
@@ -37,9 +37,9 @@ article header .price {
 }
 article img {
   display: inline-block;
-  left: calc(100% - 350px + 2.5rem);
+  left: calc(100% - 340px + 2.5rem);
   position: absolute;
-  bottom: -5rem;
+  bottom: -2rem;
   transform: scale(0.9);
   transform-origin: right bottom;
   transition: left 0.5s ease, transform 0.5s ease;
@@ -67,11 +67,11 @@ article:hover h2 {
   text-decoration-style: dotted;
 }
 article:hover img {
-  transform: scale(0.92);
+  transform: scale(0.70);
 }
 
 .card-list {
-  display: grid;
+  display: row;
   grid-template-columns: repeat(2, 360px);
   grid-template-rows: repeat(2, 320px);
   column-gap: 3rem;
