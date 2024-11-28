@@ -1,17 +1,17 @@
 body {
   background-color: #F3F6F9;
   font-family: "Roboto", "Helvetica", sans-serif;
-  padding: 2rem;
+  padding: 0.5rem;
 }
 
 article {
   background-color: white;
   border: 1px solid #222;
   box-shadow: 0.375rem 0.375rem 0 0 #dadee2, 0.375rem 0.375rem 0 1px #222, 0.75rem 0.75rem 0 0 #b7c0c8, 0.75rem 0.75rem 0 1px #222, -1rem -1rem 0 0 #fff inset, 0.375rem 0.375rem 0 0 #dadee2 inset;
-  height: 233px;
+  height: 133px;
   position: relative;
   transition: box-shadow 0.5s ease;
-  width: 250px;
+  width: 150px;
 }
 article header {
   padding: 1rem 0.7rem;
@@ -23,30 +23,30 @@ article header h2 {
 }
 article header h4 {
   color: #555;
-  left: 1.5rem;
+  left: 0.5rem;
   top: 2rem;
   margin: 0;
 }
 article header .price {
   color: #00457D;
-  font-size: 2.0rem;
+  font-size: 1.0rem;
   font-weight: 800;
   position: absolute;
-  right: 1.0rem;
-  top: 1rem;
+  right: 0.4rem;
+  top: 0.5rem;
 }
 article img {
   display: inline-block;
-  left: calc(100% - 313px + 2.5rem);
+  left: calc(100% - 190px + 2.8rem);
   position: absolute;
-  bottom: -2rem;
+  bottom: -1rem;
   transform: scale(0.9);
   transform-origin: right bottom;
-  transition: left 0.5s ease, transform 0.5s ease;
+  transition: left 1.5s ease, transform 1.5s ease;
 }
 article dl {
   color: #555;
-  font-size: 0.9em;
+  font-size: 0.6em;
   padding-left: 0.5rem;
 }
 article dl dt {
@@ -69,12 +69,12 @@ article:hover h2 {
 article:hover img {
   transform: scale(0.75);
 }
-
+{ara verme buttonlara}
 .card-list {
   display: grid;
-  grid-template-columns: repeat(2, 230px);
-  grid-template-rows: repeat(2, 260px);
-  column-gap: 3rem;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 160px);
+  column-gap: 4.5rem;
   width: 1200px;
 }
 
