@@ -2,6 +2,7 @@ body {
   background-color: #F3F6F9;
   font-family: "Roboto", "Helvetica", sans-serif;
   padding: 0.5rem;
+    font-size: 2.0rem;
 }
 
 article {
@@ -72,8 +73,8 @@ article:hover img {
 {ara verme buttonlara}
 .card-list {
   display: grid;
-  grid-template-columns: repeat(3, 100px);
-  grid-template-rows: repeat(3, 160px);
+  grid-template-columns: repeat(2, 100px);
+  grid-template-rows: repeat(2, 160px);
   column-gap: 4.5rem;
   width: 1200px;
 }
