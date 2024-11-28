@@ -76,7 +76,7 @@ article:hover img {
   grid-template-columns: repeat(2, 100px);
   grid-template-rows: repeat(2, 160px);
   column-gap: 4.5rem;
-  width: 1200px;
+  width: 100px;
 }
 
 .card.one {
