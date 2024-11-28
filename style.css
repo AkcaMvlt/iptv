@@ -1,7 +1,7 @@
 body {
   background-color: #F3F6F9;
   font-family: "Roboto", "Helvetica", sans-serif;
-  padding: 0.5rem;
+  padding: 0.2rem;
     font-size: 2.0rem;
 }
 
@@ -68,7 +68,7 @@ article:hover h2 {
   text-decoration-style: dotted;
 }
 article:hover img {
-  transform: scale(0.50);
+  transform: scale(0.80);
 }
 {ara verme buttonlara}
 .card-list {
@@ -81,7 +81,7 @@ article:hover img {
 
 .card.one {
   background-color: #F3F6F9;
-  grid-area: 1/1/2/2;
+  grid-area: 1/1/2/2/;
 }
 
 .card.two {
