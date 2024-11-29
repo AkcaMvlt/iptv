@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-img bg-lines">
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube Playlist Widget</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;600;900&display=swap" rel="stylesheet"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://unpkg.com/flickity@2/dist/flickity.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section class='youtube-gallery py-5 bg-black position-relative bg-img bg-lines' id='watch'>
+  <div class='ypt' id='ypt_wrapper'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-12 mb-5'>
+          <div class='video ratio ratio-16x9'>
+            <div class='play' data-pl='PLQe9RnAsBI6mrkTETDYEzMsIrrhmjS3LD' id='player'></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='container-max'>
+      <div class='row'>
+        <div class='col-12 px-5'>
+          <div class='youtube-carousel' id='ypt_thumbs'></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js'></script>
+<script src='https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js'></script>
+<script src='https://kit.fontawesome.com/1f110e9d34.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
